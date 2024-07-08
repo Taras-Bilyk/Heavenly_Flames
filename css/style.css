@@ -40,8 +40,9 @@ body{
 
 .burger{
     position: fixed;
-    top: 50px;
-    left: 50px;
+    top: 40px;
+    left: 30px;
+    z-index: 3;
 }
 .div_with_spans_in_burger{
     position: relative;
@@ -312,3 +313,51 @@ body{
 }
 
 
+.naw_menu{
+    display: none;
+    position: fixed;
+    top: 40px;
+    left: 30px;
+    width: calc(100vw - 130px);
+    height: calc(100vh - 200px);
+    background-color: #FFF500;
+    border-radius: 60px;
+    padding: 0 40px;
+    padding-top: 140px;
+    overflow-y: scroll;
+}
+.menu_open{
+    display: block;
+    z-index: 2;
+}
+.naw_menu a{
+    text-decoration: none;
+    color: #000;
+    font-size: 50px;
+    line-height: 52px;
+    font-weight: 900;
+
+}
+.naw_menu p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.burger_open{
+    border-color: #FFF500;
+}
+.burger_open .span_1_in_burger{
+    transform: translateX(-50%) rotate(63deg);
+    top: 45%;
+    left: 50%;
+    width: 60px;
+}
+.burger_open .span_2_in_burger{
+    display: none;
+}
+.burger_open .span_3_in_burger{
+    transform: translateX(-50%) rotate(-20deg);
+    top: 45%;
+    left: 50%;
+    width: 60px;
+}
