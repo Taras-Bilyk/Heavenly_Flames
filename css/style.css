@@ -9,7 +9,7 @@ body{
 .header_background_div{
     padding-top: 400px;
     padding-bottom: 200px;
-    background: url(../img/backgroung_img_1.png) no-repeat center/cover;
+    background: url(../img/background_img_1.svg) no-repeat center/cover;
     background-position: bottom left;
     position: relative;
 }
@@ -52,6 +52,7 @@ body{
     border: 9px solid #000000;
     border-radius: 50%;
     transform: rotate(-20deg);
+    transition: all 0.25s ease;
 
 }
 .burger span{
@@ -61,6 +62,7 @@ body{
     transform: translateX(-50%);
     width: 55px;
     height: 10px;
+    transition: all 0.25s ease;
 }
 
 .burger .span_1_in_burger{
@@ -141,7 +143,7 @@ body{
     padding-bottom: 0;
 }
 .text_background{
-    background: #000 url(../img/text_white_background.png) repeat;
+    background: #000 url(../img/text_white_background.svg) repeat;
     padding: 100px 0;
     background-size: auto 100%;
     margin-bottom: -1px;
@@ -171,8 +173,9 @@ body{
 
 }
 .scroll_button_3{
-    background: #000 url(../img/text_white_background_2.png) repeat-x;
+    background: #000 url(../img/text_white_background_2.svg) repeat-x;
     background-position: bottom;
+    background-size: 1000px;
 }
 
 .big_text_ministry{
@@ -229,9 +232,8 @@ body{
     color: #fff;
 }
 .scroll_button_4{
-    background: #fff url(../img/text_white_background_4.png) repeat-x;
-    background-position: top;
-    
+    background: #000 url(../img/text_white_background_4.svg) repeat-x;
+    background-size: 1000px;
 }
 .main_background_3{
     background-color: #000;
@@ -262,8 +264,10 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
-    background: #000 url(../img/backgroung_img_3.png) repeat-x;
+    background: #000 url(../img/background_img_4.svg) repeat-x;
     padding-bottom: 100px;
+    background-size: 1000px;
+    background-position-y: 35px;
 }
 .music_buttons_div svg{
     background-color: #FFF500;
@@ -301,7 +305,7 @@ body{
     left: 0;
     width: 100%;
     height: 10px;
-    background: #000 url(../img/background_img_4.png) repeat-x;
+    background: #000 url(../img/background_img_4.svg) repeat-x;
     background-size: contain;
 }
 .scroll_up_button::before{
@@ -314,21 +318,33 @@ body{
 
 
 .naw_menu{
-    display: none;
+    /* display: none; */
     position: fixed;
-    top: 40px;
-    left: 30px;
-    width: calc(100vw - 130px);
-    height: calc(100vh - 200px);
+    top: 50px;
+    left: 55px;
     background-color: #FFF500;
     border-radius: 60px;
     padding: 0 40px;
     padding-top: 140px;
     overflow-y: scroll;
+    transition: all 0.25s ease;
+
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: 0;
 }
 .menu_open{
-    display: block;
+    /* display: block; */
     z-index: 2;
+    top: 35px;
+    left: 25px;
+    width: calc(100vw - 145px);
+    height: calc(100vh - 200px);
+    padding: 0 40px;
+    padding-top: 140px;
+    border: 5px solid #000000;
+    transition: all 0.25s ease;
 }
 .naw_menu a{
     text-decoration: none;
