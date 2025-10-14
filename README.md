@@ -24,7 +24,7 @@ Just open the `index.html` file in any modern web browser.
 - `img/` — images
 
 ## Project Goal
-Real commercial project? but not released.
+Real commercial project, but not released.
 
 ---
 
