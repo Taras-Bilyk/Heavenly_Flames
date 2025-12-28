@@ -15,7 +15,7 @@ Project is not finished.
 
 ## How to Run
 Just open the `index.html` file in any modern web browser.
-<div>Or visit the site here: <a href="https://taras-bilyk.github.io/Heavenly_Flames/">https://taras-bilyk.github.io/Heavenly_Flames/</a></div>
+<div>Or visit the site here: <a href="https://taras-bilyk.github.io/heavenly_flames/">https://taras-bilyk.github.io/heavenly_flames/</a></div>
 
 
 ## Project Structure
